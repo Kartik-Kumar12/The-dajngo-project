@@ -1,0 +1,164 @@
+/*Style my-order page*/
+        
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  body {
+      height: 100%;
+      background-color:#fe4c50 ;
+  }
+  .god_container{
+    margin-left: 15%;
+    margin-right: 15% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    font-family: Poppins-Regular, sans-serif
+  
+}
+.Title {
+    margin-top: 160px;
+    color: white ;
+    font-size: 50px;
+}
+.order_container {
+     width:1000px;
+     background-color:white;
+     margin-bottom: 20px;
+     border-radius: 5px;
+     border: 1px solid #fe4c50;
+
+}
+.section1 {
+   font-size: 30px;
+   padding-top: 10px ;
+   padding-bottom: 5px ;
+   text-align: center ;
+   border-bottom: black solid 1px ;
+   color: black;
+}
+.section2 {
+    border: grey solid 1px ;
+    margin-top: 10px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25px;
+    background-color: rgb(223, 226, 230);
+}
+.section2 div {
+    float: left ;
+}
+.section3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.first {
+  width: 10px;
+  padding-left: 5px ;
+  padding-top: 3px ;
+}
+.second {
+
+    padding-left: 180px;
+    padding-right: 150px;
+    padding-top: 3px ;
+  }
+  .third {
+    padding-left: 70px ;
+    padding-right: 10px;
+
+    padding-top: 3px ;
+  }
+  .fourth {
+    padding-left: 50px;
+    padding-right:10px ;
+
+    padding-top: 3px ;
+  }
+  .fifth {
+    padding-left: 60px;
+     padding-right: 30px;
+    padding-top: 3px ;
+  }
+  .sixth {
+    padding-left: 50px;
+    padding-top: 3px ;
+  }
+.sub_container {
+    margin-left: 20px ;
+    margin-right: 20px;
+    border-bottom: grey solid 1px;
+    border-left: grey solid 1px;
+    border-right: grey solid 1px;
+    height: 150px;
+}
+.aub_container div {
+    float: left;
+}
+.serial {
+    width: 20px;
+    height: inherit;
+
+}
+.products {
+    width: 430px ;
+    height: inherit;
+
+}
+.price {
+    width : 100px;
+    height: inherit;
+    
+}
+.qty {
+    width : 120px;
+    height: inherit;
+    
+}
+.status {
+    height: inherit;
+    width : 140px;
+
+}
+.order {
+    height: inherit;
+    width: 135px;
+    
+}
+img {
+    
+    width:130px ;
+    height:130px ;
+    margin-top: 7px ;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    border: grey solid 1.5px ;
+}
+.desc {
+    width: 250px;
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 7px ;
+    margin-bottom: 7px;
+
+
+}
+.desc p{
+    margin: 45px 20px 0px 20px;
+    text-align: left;
+}
+p {
+    margin-top: 55px;
+    margin-left: 20px;
+}
+.price p {
+    margin-left: 25px;
+}
+.qty p{
+    margin-left: 50px;
+}
+.status  p{
+    margin-left: 30px;
+}

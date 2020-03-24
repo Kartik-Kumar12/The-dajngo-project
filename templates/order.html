@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Order here </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images2/icons/favicon.ico' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor2/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts2/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts2/iconic/css/material-design-iconic-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor2/animate/animate.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor2/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor2/animsition/css/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor2/select2/select2.min.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor2/daterangepicker/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css2/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css2/main.css' %}">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('static/images2/bg-01.jpg');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+				<form class="login100-form validate-form"method="POST">
+					{% csrf_token %}
+					<span class="login100-form-title p-b-49">
+						Order now
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Address is reauired">
+						<input class="input100" type="text" name="address" placeholder="Address(House No,Building,Street No)*">
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Locality is reauired">
+						<input class="input100" type="text" name="town" placeholder="Locality/Town">
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "pincode is reauired">
+						<input class="input100" type="text" name="pincode" placeholder="Pincode*">
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "City is reauired">
+						<input class="input100" type="text" name="city" placeholder="City/District*">
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "State is reauired">
+						<input class="input100" type="text" name="state" placeholder="State*">
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Mob_No is reauired">
+						<input class="input100" type="tel" name="usr_tel" placeholder="Mobile No*">
+					</div>
+					<div class="qty">
+						 Quantity :<select name="qty" id=""><option value="1">1</option><option value="2">2</option>
+							<option value="3">3</option><option value="4">4</option><option value="5">5</option>
+						    <option value="6">6</option><option value="7">7</option><option value="8">8</option>
+						    <option value="9">9</option>
+						</select>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Place your order
+							</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="{% static 'vendor2/jquery/jquery-3.2.1.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor2/animsition/js/animsition.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor2/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'vendor2/bootstrap/js/bootstrap.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor2/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor2/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'vendor2/daterangepicker/daterangepicker.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor2/countdowntime/countdowntime.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'js2/main.js' %}"></script>
+
+</body>
+</html>

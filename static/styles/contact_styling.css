@@ -1,0 +1,37 @@
+.contact-head-container{
+    background-color: #f4eeff ;
+    padding-top: 14%;
+    text-align: center;
+}
+h2 {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+.contain{
+    border-right: 1px solid gray ;
+}
+.first{
+    border-left: 1px solid gray;
+}
+.head-text {
+    font-size: 1rem;
+    word-spacing: 2px;
+    color: grey;
+}
+.contact-body-container
+{   
+    padding: 5% 10%;
+}
+.contact-text {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.contact_details{
+    font-size: 15px;
+    color: gray;
+    padding: 20px 10px 10px;
+}
+.contact_images{
+    width: 70px;
+    height: 70px;
+}
