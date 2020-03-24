@@ -5,10 +5,12 @@
 
   <h2><i> Functionality specs :</i></h2>
      <h4> > Have  functionality of registration and authentication of users</h4>
+     <h4> > Have functionality of checking whether the user is authenticated or not before ordering</h4>
      <h4> > Have functionality of ordering clothes</h4>
+     <h4> > Have functionality of pagination</h4>
      <h4> > Have functionality of showing user's orders and it's details</h4>
      <h4> > Have a functionality of contact page</h4>
-     <h4> > Have functionality of checking whether the user is authenticated or not before ordering</h4>
+     
  <br /><br />
  <h2><i>Home page :</i></h2>
   <br /><br />
